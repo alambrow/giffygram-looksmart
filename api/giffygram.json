@@ -164,16 +164,6 @@
       "postId": 14,
       "userId": 1,
       "id": 20
-    },
-    {
-      "postId": 14,
-      "userId": 4,
-      "id": 21
-    },
-    {
-      "postId": 9,
-      "userId": 4,
-      "id": 22
     }
   ],
   "messages": [
@@ -336,13 +326,6 @@
       "recipientId": 1,
       "read": false,
       "id": 30
-    },
-    {
-      "userId": 4,
-      "text": "hiii",
-      "recipientId": 4,
-      "read": true,
-      "id": 31
     },
     {
       "userId": 4,

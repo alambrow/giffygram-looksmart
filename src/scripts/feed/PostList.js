@@ -32,9 +32,7 @@ export const PostList = (posts) => {
 
             return `
             <div class="individPost">
-                <h2> ${post.title} </h2>            
-                <img class="postGIF" src=" ${post.imageURL}"> 
-                <div class="postDescript"> ${post.description}</div>
+                <div class="postTitle"> ${post.title} </div>            
                 <div class="postedByFlex">
                 ${users.map(user => {
                     if (user.id === post.userId) {
@@ -44,6 +42,8 @@ export const PostList = (posts) => {
                 <img class="actionIcon" id="favoritePost--${post.id}" src=${starImage} />
                 ${deleteIcon(post)}
                 </div>
+                <img class="postGIF" src=" ${post.imageURL}"> 
+                <div class="postDescript"> ${post.description}</div>
             </div>
         `
         })
@@ -74,7 +74,7 @@ const favoriteIcon = (post) => {
 const deleteIcon = (post) => {
     if (post.userId === parseInt(localStorage.getItem("gg_user"))) {
         return `<img class="actionIcon deletePostButton" id="deletePost--${post.id}" src="./images/block.svg"  alt="Delete Icon"/>`
-    } else return `<br></br>`
+    } else return ``
 }
 
 

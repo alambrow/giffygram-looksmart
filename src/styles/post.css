@@ -11,17 +11,22 @@
 
 .newPost {
     position: fixed;
-    margin: 6rem 2rem 0rem 2rem;
+    margin: 8rem 2rem 0rem 2rem;
 }
 
 .newPost__entry {
-    background-color: rgb(100, 100, 100, .8);
+    background-color: rgb(253, 253, 132, .75);
     padding: 1rem;
+    border: 1.2px solid black;
     border-radius: 10px;
 }
 
 .inputTitle, .inputGifURL, .inputStory {
     background-color: white;
+}
+
+.inputStory {
+    height: 5rem;
 }
 
 #submitGif {
@@ -75,16 +80,23 @@
     display: flex;
     flex-direction: row wrap;
     justify-content: space-between;
-    padding-bottom: -4rem;
-    padding-right: 1rem;
+    padding: 1rem;
 }
 
 .postedBy {
     text-decoration: underline;
-    padding-left: 1rem;
-    padding-top: .4rem;
+    padding-top: .5rem;
+
 }
 
+.postTitle {
+    font-size: 1.8rem;
+    background-color: rgb(253, 253, 132, .6);
+    padding: .5rem 1rem;
+    border: 1.2px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
 
 /* .miniMode {
     padding: 1rem;
