@@ -14,8 +14,8 @@ export const GiffyGram = () => {
     return `
     ${NavBar()}
     <section class="mainflex">
+    <div class="leftAside">${postButton()}</div>
     <div class="postingWall">
-    ${postButton()}
     ${PostList(posts)}
     </div>
     <div class="asideWall">

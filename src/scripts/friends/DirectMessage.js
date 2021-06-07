@@ -48,15 +48,13 @@ const inboxList = (message) => {
 
     return `
     <div class="unreadMessage">
-    <div class="messageText">
     <div>
     ${senderName}: 
     </div>
     <div class="newMessageBody">
     ${message.text}
     </div>
-    </div>
-    <button id="markAsRead--${message.id}">mark as read</button>
+    <button id="markAsRead--${message.id}">read</button>
     <button id="deleteMessage--${message.id}">delete</button>
     </div>
     `
@@ -75,7 +73,8 @@ const readList = (message) => {
 
     return `
     <div class="readMessage">
-    <div>${senderName}: </div><div class="readMessageBody">${message.text}</div>
+    <div>${senderName}: </div>
+    <div class="readMessageBody">${message.text}</div>
     <button id="deleteMessage--${message.id}">delete</button>
     </div>
     `

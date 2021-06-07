@@ -3,7 +3,7 @@ import { PostEntry } from "./PostEntry.js"
 export const postButton = () => {
     return `
     <div class="newPost">
-    <button id="postButton"></button>
+    <button id="postButton">Giffypost</button>
     </div>
     `
 }

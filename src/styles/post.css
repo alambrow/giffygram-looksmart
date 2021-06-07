@@ -1,42 +1,51 @@
 #postButton {
-    margin-left: 5rem;
-    width: 10rem;
-    height: 10rem;
+    align-items: center;
+    width: 8rem;
+    height: 2.5rem;
     border-radius: 10px;
-    background-color: black;
+    background-color: lightcoral;
+    /* background-color: black;
     background-image: url("https://images.squarespace-cdn.com/content/v1/53e5e8b4e4b0f39bef5e536c/1547215347117-K32R85XZK26R5HV1J48L/ke17ZwdGBToddI8pDm48kHd5Q0GLlWSu9-3zkrWVThB7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmFrieiveF5UlqvhSmB2vDMXu746B504vhzJgW3USCSli4wyjNMqLidPJ9Z2Z5MOQQ/new-post.gif?format=2500w");
-    background-size: 100%;
+    background-size: 100%; */
 }
 
 .newPost {
-    margin-top: 6rem;
-    margin-left: 5rem;
+    position: fixed;
+    margin: 6rem 2rem 0rem 2rem;
+}
+
+.newPost__entry {
+    background-color: rgb(100, 100, 100, .8);
+    padding: 1rem;
+    border-radius: 10px;
 }
 
 .inputTitle, .inputGifURL, .inputStory {
     background-color: white;
 }
+
 #submitGif {
     margin-top: 5px;
-    background-color: black;
+    /* background-color: black;
     background-image: url("https://www.clipartmax.com/png/small/1-11037_green-check-mark-transparent.png");
-    background-size: 100%;
-    height: 4rem;
+    background-size: 100%; */
+    height: 2rem;
     width: 4rem;
+    background-color: lightcoral;
 }
 
 #cancelGif {
-    margin-left: 54px;
+    /* margin-left: 54px;
     background-color: black;
     background-image: url("https://e1.pngegg.com/pngimages/720/726/png-clipart-emoji-sticker-x-icon-thumbnail.png");
-    background-size: 100%;
-    height: 4rem;
+    background-size: 100%; */
+    height: 2rem;
     width: 4rem;
+
 }
 
-#postingWall {
-    margin-bottom: 5rem;
-    margin-left: 2rem;
+.postingWall {
+    margin: 6rem 2rem 8rem 16rem;
 }
 
 .individPost {

@@ -24,6 +24,7 @@ body, button, input, select, textarea {
 .mainflex {
     display: flex;
     flex-direction: row;
+    justify-content:left;
 }
 
 h1, h2, h3, h4, h5, h6 {

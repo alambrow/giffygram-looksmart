@@ -1,6 +1,6 @@
 .asideWall {
     position: fixed;
-    margin-left: 40rem;
+    margin-left: 55rem;
 }
 
 /* .messageBox {
@@ -14,7 +14,7 @@
 }
 
 .messageBoxinner {
-    margin: 5rem 1rem 0rem 1rem;
+    margin: 8rem 1rem 0rem 1rem;
     padding: 1rem 2.5rem 2.5rem 2.5rem;
     background-color: rgb(112,128,144, .6);
     border-radius: 10px;
@@ -32,13 +32,13 @@
 
 .DMDisplay {
     background-color: rgb(112,128,144, .6);
-    padding: 2.5rem;
+    padding: 2rem;
     border-radius: 10px;
-    margin: 5rem 1rem 2rem 1rem;
+    margin: 8rem 1rem 2rem 1rem;
 }
 
 .DMBox {
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 .yourDMs {
@@ -60,7 +60,7 @@
 }
 
 .textBodyInput {
-    padding: 4rem;
+    padding: .5rem 7rem .5rem .5rem;
 }
 
 #recipientSelection {
@@ -69,28 +69,25 @@
 
 .inbox {
     background-color: rgb(245, 245, 245, .8);
-    padding: 1rem 2rem;
+    width: 22rem;
 }
 
 .unreadMessage {
-    background-color: blanchedalmond;
+    background-color: rgb(240, 128, 128, .6);
     display: flex;
     flex-direction: row wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    padding: 0rem .5rem 0rem .5rem;
 }
 
-.messageText {
-    display: flex;
-    flex-direction: row;
-}
 
 .newMessageBody {
-    padding: 0rem 3rem;
+    padding: 0rem 1rem;
 }
 
 .readInbox {
     background-color: rgb(180, 175, 175, .8);
-    padding: 0rem 5rem 1rem 4rem;
+    margin-top: 1rem;
 }
 
 .readMessage {
@@ -101,7 +98,7 @@
 }
 
 .readMessageBody {
-    padding: 0rem 4rem 0rem 10rem;
+    padding: 0rem 2rem 0rem 1rem;
 }
 
 #sendMessage {

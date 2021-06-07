@@ -2,6 +2,7 @@ import { sendGif } from "../data/provider.js"
 
 export const PostEntry = () => {
     let html = `
+    <div class="newPost__entry">
     <div class="field">
         <label class="label" for="gifTitle"></label>
         <input type="text" name="gifTitle" class="input inputTitle" placeholder="Title"/>
@@ -12,11 +13,12 @@ export const PostEntry = () => {
     </div>
     <div class="field">
         <label class="label" for="gifStory"></label>
-        <input type="text" name="gifStory" class="input inputStory" placeholder="Story behind your gif..."/>
+        <input type="text" name="gifStory" class="input inputStory" placeholder="Story behind your Gif..."/>
     </div>  
     
-    <button class="button" id="submitGif"></button>
-    <button class="button" id="cancelGif"></button>
+    <button class="button" id="submitGif">Submit</button>
+    <button class="button" id="cancelGif">Cancel</button>
+    </div>
     `
 return html
 }
