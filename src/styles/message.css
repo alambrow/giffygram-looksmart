@@ -14,7 +14,7 @@
 }
 
 .messageBoxinner {
-    margin: 8rem 1rem 0rem 1rem;
+    margin: 8rem 1rem -4rem 1rem;
     padding: 1rem 2.5rem 2.5rem 2.5rem;
     background-color: rgb(112,128,144, .6);
     border-radius: 10px;
