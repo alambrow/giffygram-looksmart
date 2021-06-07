@@ -53,9 +53,6 @@ export const PostList = (posts) => {
 }
 
 const favoriteIcon = (post) => {
-    /*iterate the 'likes' array and, using filter, returns
-    a new array, just including the likes for the
-    current user.*/
     const likes = getLikes()
     const userLikes = likes.filter(like => {
         return (parseInt(localStorage.getItem("gg_user")) === like.userId)

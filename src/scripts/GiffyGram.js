@@ -11,6 +11,12 @@ import { getPosts } from "./data/provider.js"
 // main HTML rendering function, displays most components
 export const GiffyGram = () => {
     const posts = getPosts()
+  
+    posts.sort(function(x, y){
+        return y.timestamp - x.timestamp;
+    })
+
+
     return `
     ${NavBar()}
     <section class="mainflex">

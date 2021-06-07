@@ -24,6 +24,11 @@ export const filterWallByUser = (userID) => {
             filteredPosts.push(posts[i])
         }
     }
+
+    filteredPosts.sort(function(x, y){
+        return y.timestamp - x.timestamp;
+    })
+
     const filteredWall = PostList(filteredPosts)
     return filteredWall
 }

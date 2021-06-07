@@ -22,6 +22,7 @@ export const PostEntry = () => {
     `
 return html
 }
+
 // click event to send GIF to API
 document.addEventListener("click", clickEvent => {
     if (clickEvent.target.id === "submitGif") {
@@ -50,7 +51,7 @@ document.addEventListener("click", clickEvent => {
             imageURL: usergifURL,
             description: usergifStory,
             userId: userId,
-            timestamp: new Date()
+            timestamp: Date.now()
         }
         sendGif(dataToSendToAPI)
     }

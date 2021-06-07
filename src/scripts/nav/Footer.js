@@ -48,7 +48,7 @@ export const footer = () => {
     <section class="wholeFooter">
     <footer class="footer">
     <div class="yearSelect flexboxFooter footer__item">
-    <div class="footerWords">Post since</div>
+    <div class="footerWords">Filter by Year</div>
     <select id="years" name="yearsDropdown">
             <option id="year21" name='footerYear'>2021</option>
             <option id="year20" name='footerYear'>2020</option>
