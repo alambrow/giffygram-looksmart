@@ -1,4 +1,4 @@
-const apiURL = "http://localhost:8088"
+const apiURL = "GiffyGram.us-east-1.elasticbeanstalk.com/api"
 const applicationElement = document.querySelector(".giffygram")
 
 let applicationState = {
